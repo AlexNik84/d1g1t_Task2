@@ -15,7 +15,7 @@ for i in range(0, 99):
         directors_list.append(director['name'])
         break
     movies.append({'Title': titles_list[i], "Directors": directors_list[i]})
-    print(movies)
+    #print(movies) for debbuging 
 
 sorted_movies = sorted(movies, key = lambda d: d['Directors'])
 
